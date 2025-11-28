@@ -464,22 +464,22 @@ const testData = {
 
 ## Best Practices
 
-1. **One action per method** in page objects
-2. **Clear test names** describing what is tested
-3. **Independent tests** - don't rely on test order
-4. **Meaningful assertions** at each critical step
-5. **Comments** for complex logic only
-6. **DRY principle** - reuse page objects
-7. **Stable selectors** - prefer data-test attributes
+1. Single responsibility per page object method
+2. Clear, intention-revealing test names
+3. Independent tests (no order dependency)
+4. Strong assertions at critical checkpoints
+5. Minimal comments (only for complex logic)
+6. Reusable components (DRY principle)
+7. Stable selectors using data-test attributes
 
 ## Next Steps
 
-- Add more test scenarios (multiple users, edge cases)
-- Implement test data management
+- Extend coverage (multiple users, edge cases)
+- Centralize test data management
 - Add API testing with Playwright
 - Set up CI/CD pipeline
-- Add visual regression testing
-- Implement parallel execution across browsers
+- Enable visual regression testing
+- Execute tests in parallel across browsers
 
 ---
 
